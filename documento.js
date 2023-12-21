@@ -1,8 +1,5 @@
-const img =document.querySelector("#img");
-
-const getImg= async ()=>{
-    const data = await fetch("https://dog.ceo/dog-api/");
-    const dataJson = await data.json();
-    img.src = dataJson.message;
+const ses = function(){
+    document.querySelector(".si").innerHTML="sosososo"
 }
-getImg();
+const button = document.querySelector(".mybutton")
+button.addEventListener("click",ses)
